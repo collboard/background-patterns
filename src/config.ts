@@ -7,7 +7,7 @@ import { IPatternConfig } from './interfaces/IPatternConfig';
 export const GRID_SIZE = 30;
 export const OPACITY = 0.07;
 
-export const PATTERNS: Array<IPatternConfig> = [
+export const PATTERNS: IPatternConfig[] = [
     {
         name: 'dots',
         deprecatedName: 'Dots',
