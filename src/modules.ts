@@ -1,5 +1,5 @@
 import { Authors, BackgroundPatternArt, declareModule } from '@collboard/modules-sdk';
-import { name as packageName } from '../package.json';
+import { name as packageName, version } from '../package.json';
 import { PATTERNS } from './config';
 
 for (const { name, deprecatedName, title, src, size, opacity } of PATTERNS) {
@@ -13,6 +13,7 @@ for (const { name, deprecatedName, title, src, size, opacity } of PATTERNS) {
     declareModule({
         manifest: {
             name: `${packageName}/${name}`,
+            version,
             deprecatedNames,
             title,
             categories: ['Basic', 'Wallpaper'],
