@@ -22,5 +22,7 @@
         "@collboard/modules-sdk": "27.41.101",
         "tslint": "6.1.3"
     },
-    "dependencies": {}
+    "dependencies": {
+        "xyzt": "^5.4.0"
+    }
 }
