@@ -3,8 +3,14 @@
     "version": "0.1.0",
     "description": "Simple sample module for Collboard.com with the art (object on the board), tool, and attribute",
     "license": "SEE LICENSE IN LICENSE",
+    "author": {
+        "name": "Collboard",
+        "email": "info@collboard.com",
+        "url": "http://collboard.com/"
+    },
     "contributors": [
-        "Pavol Hejný <pavol.hejny@collboard.com> (https://collboard.com/-/about/team)"
+        "Pavol Hejný <pavol.hejny@collboard.com> (https://collboard.com/-/about/team)",
+        "Jonáš Rosecký <jonas.rosecky@collboard.com> (https://collboard.com/-/about/team)"
     ],
     "repository": {
         "type": "git",
