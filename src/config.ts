@@ -1,4 +1,9 @@
 import { Vector } from 'xyzt';
+import chessboardSrc from '../assets/patterns/chessboard.png';
+import dotsSrc from '../assets/patterns/dots.svg';
+import gridSrc from '../assets/patterns/grid.png';
+import linesGuidesSrc from '../assets/patterns/lines-guides.png';
+import linesHorizontalSrc from '../assets/patterns/lines-horizontal.png';
 import { IPatternConfig } from './interfaces/IPatternConfig';
 
 /**
@@ -12,7 +17,7 @@ export const PATTERNS: IPatternConfig[] = [
         name: 'dots',
         deprecatedName: 'Dots',
         title: { en: 'Dotted background', cs: 'Tečkovaný podklad' },
-        src: `http://localhost:9980/patterns/dots.svg`,
+        src: dotsSrc,
         size: Vector.square(GRID_SIZE),
         opacity: OPACITY,
     },
@@ -20,7 +25,7 @@ export const PATTERNS: IPatternConfig[] = [
         name: 'grid',
         deprecatedName: 'Grid',
         title: { en: 'Grid background', cs: 'Čtverečkovaný podklad' },
-        src: `http://localhost:9980/patterns/grid.png`,
+        src: gridSrc,
         size: Vector.square(GRID_SIZE),
         opacity: OPACITY,
     },
@@ -28,7 +33,7 @@ export const PATTERNS: IPatternConfig[] = [
         name: 'lines-horizontal',
         deprecatedName: 'LinesHorizontal',
         title: { en: 'Lines background', cs: 'Linkovaný podklad' },
-        src: `http://localhost:9980/patterns/lines-horizontal.png` /* TODO: Better */,
+        src: linesHorizontalSrc,
         size: Vector.square(GRID_SIZE),
         opacity: OPACITY,
     },
@@ -36,7 +41,7 @@ export const PATTERNS: IPatternConfig[] = [
         name: 'lines-with-guides',
         deprecatedName: 'LinesWithGuides',
         title: { en: 'Lines with guides background', cs: 'Linkovaný podklad s pomocnými čárami' },
-        src: `http://localhost:9980/patterns/lines-guides.png` /* TODO: Better */,
+        src: linesGuidesSrc,
         size: Vector.square(GRID_SIZE * 3),
         opacity: 1,
     },
@@ -44,7 +49,7 @@ export const PATTERNS: IPatternConfig[] = [
         name: 'chessboard',
         deprecatedName: 'chessboard',
         title: { en: 'Chessboard background', cs: 'Podklad s šachovnící' },
-        src: `http://localhost:9980/patterns/chessboard.png`,
+        src: chessboardSrc,
         size: Vector.square(GRID_SIZE),
         opacity: 1,
     },
