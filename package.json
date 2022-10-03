@@ -1,7 +1,7 @@
 {
     "name": "@collboard/background-patterns",
     "version": "0.1.2",
-    "description": "Simple sample module for Collboard.com with the art (object on the board), tool, and attribute",
+    "description": "Background patterns for Collboard.com",
     "license": "SEE LICENSE IN LICENSE",
     "author": {
         "name": "Collboard",
