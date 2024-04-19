@@ -9,6 +9,7 @@
 [![test](https://github.com/collboard/background-patterns/actions/workflows/test.yml/badge.svg)](https://github.com/collboard/background-patterns/actions/workflows/test.yml)
 [![Known Vulnerabilities](https://snyk.io/test/github/collboard/background-patterns/badge.svg)](https://snyk.io/test/github/collboard/background-patterns)
 [![Issues](https://img.shields.io/github/issues/collboard/background-patterns.svg?style=flat)](https://github.com/collboard/background-patterns/issues)
+<!--[![Socket](https://socket.dev/api/badge/npm/package/@collboard/background-patterns)](https://socket.dev/npm/package/@collboard/background-patterns)-->
 
 <!--/Badges-->
 
