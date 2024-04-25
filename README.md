@@ -32,7 +32,7 @@ _Not including the basic ones (dots, grid and chessboard) which are integrated i
 ## ✨ Partners
 
 
-<a href="https://collboard.com/" title="Collboard"><img src="https://collboard.fra1.cdn.digitaloceanspaces.com/assets/18.12.1/logo-small.png" alt="Collboard" height="60"></a>
+<a href="https://collboard.com/" title="Collboard"><img src="https://collboard.fra1.cdn.digitaloceanspaces.com/assets/18.12.1/logo-small.png#gh-light-mode-only" alt="Collboard" height="60"/></a>
 
 
 [Become a partner](https://www.pavolhejny.com/contact/)
