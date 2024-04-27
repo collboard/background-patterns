@@ -29,6 +29,6 @@
         "tslint": "6.1.3"
     },
     "dependencies": {
-        "xyzt": "^5.4.3"
+        "xyzt": "5.4.3"
     }
 }
