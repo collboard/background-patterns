@@ -30,5 +30,15 @@
     },
     "dependencies": {
         "xyzt": "5.4.3"
-    }
+    },
+    "funding": [
+        {
+            "type": "individual",
+            "url": "https://buymeacoffee.com/hejny"
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/collboard/background-patterns/blob/main/README.md#%EF%B8%8F-contributing"
+        }
+    ]
 }
